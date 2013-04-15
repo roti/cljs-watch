@@ -2,6 +2,10 @@
 
 A simple shell script that watches for changes to CLJS files and recompiles them for you.
 
+This is a fork of https://github.com/ibdknox/cljs-watch which brings following modifications/additions:
+* support for Windows
+* changed default optimizations to none
+
 ## Usage
 
 You must have ClojureScript already setup and have $CLOJURESCRIPT_HOME correctly set. 
