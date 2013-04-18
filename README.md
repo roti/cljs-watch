@@ -4,7 +4,7 @@ A simple shell script that watches for changes to CLJS files and recompiles them
 
 This is a fork of https://github.com/ibdknox/cljs-watch which brings following modifications/additions:
 * support for Windows
-* changed default optimizations to none
+* no optimization by default
 
 ## Usage
 
