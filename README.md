@@ -18,6 +18,9 @@ cljs-watch
 
 #it can also take a directory and compile options
 cljs-watch cljs-src/ '{:optimizations :none :output-to "test.js"}'
+
+#on windows you need to escape quotes
+cljs-watch.bat cljs-src\ "{:optimizations :none :output-to \"test.js\"}"
 ```
 
 ## Notes
